@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `As an Accomplished Project Engineer at Wipro Technologies, I specialized in designing and optimizing scalable web applications using Java, Spring Boot, and RESTful APIs. I played a key role in enhancing system performance and driving user engagement by implementing efficient backend solutions. With strong proficiency in MySQL and PostgreSQL, I ensured robust, scalable database management, delivering high-quality solutions tailored to business needs. Additionally, I mentored junior engineers, fostering a collaborative learning environment to enhance team performance and project delivery.`;
+export const HERO_CONTENT = `A proactive and detail-oriented Java Spring Boot Developer with a proven 3-\year track record of delivering high-quality software solutions at Wipro. My journey began with an internship at Wipro, where I quickly demonstrated leadership by guiding my batch, a role I continued in my initial days. My core technical strengths include Java, Spring Boot, Microservices architecture, and Docker, complemented by a deep understanding of Data Structures and Algorithms essential for effective problem-solving. Passionate about developing efficient, scalable software and actively seeking opportunities to apply my skills to complex challenges and contribute to impactful projects.`;
 
 export const ABOUT_TEXT = `I am a passionate Java Developer with several years of experience in building robust, scalable, and high-performance backend systems using Java and Spring Boot. My expertise lies in designing and developing enterprise-level applications, crafting RESTful APIs, and implementing Microservices architectures to deliver seamless user experiences. I specialize in leveraging Spring Boot to accelerate development processes, ensuring clean and maintainable code.
 
@@ -15,27 +15,28 @@ export const HERO_NAME = `Surendar`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - 2025",
+    year: "2023 - 2025", 
     role: "Java Developer",
-    company: "Wipro Technologies.",
-    description: `Developed and optimized scalable backend systems using Java, Spring Boot, and RESTful APIs. Integrated PostgreSQL and MySQL databases for high-performance data storage. Focused on security implementation with Spring Security and JWT.`,
-    technologies: ["Java", "Spring Boot", "PostgreSQL","Microservices","Docker"]
+    company: "Wipro Technologies",
+    description: `Contributed to microservice-based architecture design and implementation. Developed and maintained APIs, worked on database optimization, and collaborated closely with cross-functional teams for seamless project delivery.`,
+    technologies: ["Java", "Spring Boot", "PostgreSQL", "Microservices", "Docker"] 
   },
   {
     year: "2022 - 2023",
     role: "Project Engineer",
-    company: "Wipro Technologies.",
-    description: `Contributed to microservice-based architecture design and implementation. Developed and maintained APIs, worked on database optimization, and collaborated closely with cross-functional teams for seamless project delivery.`,
-    technologies: ["Java", "Spring Boot", "Microservices", "REST APIs", "MySQL"]
+    company: "Wipro Technologies",
+    description: `Developed and optimized scalable backend systems using Java, Spring Boot, and RESTful APIs. Integrated PostgreSQL database for high-performance data storage. Focused on security implementation with Spring Security.`,
+    technologies: ["Java", "Spring Boot", "PostgreSQL", "REST APIs", "SpringSecurity"]
   },
   {
     year: "2021 - 2022",
     role: "Project Intern",
-    company: "Wipro Technologies.",
-    description: `Collaborated on building backend service using Java and Springboot framework. Contributed to REST API development and database integration using PostgreSQL, gaining practical experience in real-world enterprise projects.`, 
-    technologies: ["Java", "PostgreSQL", "SpringBoot", "REST"]
+    company: "Wipro Technologies",
+    description: `Collaborated on building backend service using Java and Spring Boot framework. Contributed to REST API development and database integration using PostgreSQL, gaining practical experience in real-world enterprise projects.`,
+    technologies: ["Java", "PostgreSQL", "Spring Boot", "REST APIs"] 
   }
 ];
+
 
 export const PROJECTS = [
   {

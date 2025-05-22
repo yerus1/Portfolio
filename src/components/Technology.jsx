@@ -81,12 +81,6 @@ const Technology = () => {
           <SiSpringboot className="text-4xl text-[#6DB33F]" /> {/* Spring Boot */}
         </motion.div>
         <motion.div 
-         variants={iconvarient(3.5)}
-         initial="initial"
-         animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
-          <DiRedis className="text-4xl text-[#DC382D]" /> {/* Redis */}
-        </motion.div>
-        <motion.div 
          variants={iconvarient(5.0)}
          initial="initial"
          animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
